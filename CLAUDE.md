@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## デプロイ先
 
-https://github.com/synergytokuoka/task-board/
+- 公開URL（GitHub Pages）: https://synergytokuoka.github.io/task-board/
+- リポジトリ: https://github.com/synergytokuoka/task-board/
+- `main` ブランチへのpushをトリガーに `.github/workflows/deploy.yml` が `npm run build` の成果物（`dist/`）を自動デプロイする（GitHub Actions経由）。
 
 ## 技術スタック
 
